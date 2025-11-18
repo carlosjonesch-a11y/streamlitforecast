@@ -1,5 +1,3 @@
-# Minimal requirements to run the Streamlit forecasting app
-# Use this as a starting point then run `pip freeze > requirements.txt` in your venv
 streamlit
 pandas
 numpy
@@ -7,4 +5,9 @@ plotly
 scikit-learn
 openpyxl
 statsmodels
-prophet
+prophet==1.2.1
+
+# NOTE: This minimal file keeps Prophet (per request) but excludes other heavy
+# libraries (tbats, cmdstanpy, pmdarima, catboost). Prophet may still trigger
+# long builds depending on the underlying Stan backend — if you prefer a very
+# fast initial deploy, remove `prophet` too and reintroduce later.
