@@ -1,0 +1,78 @@
+# Ambiente Virtual
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+*.streamlit/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de dados locais
+*.csv
+!dados_vendas.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup
+*.bak
+*.backup
+*~
+
+# Arquivos de configuração local
+.env
+.env.local
+config.local.py
+
+# Pasta de uploads (se usada)
+uploads/
+downloads/
+
+# Cache de Streamlit
+.streamlit/secrets.toml

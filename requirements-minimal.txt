@@ -1,0 +1,10 @@
+# Minimal requirements to run the Streamlit forecasting app
+# Use this as a starting point then run `pip freeze > requirements.txt` in your venv
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+openpyxl
+statsmodels
+prophet
