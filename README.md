@@ -1,5 +1,4 @@
 # streamlitforecast
-=======
 **Projeto Streamlit - Sistema de Previsão de Séries Temporais**
 
 Plataforma integrada para previsão de demanda com 6 modelos de séries temporais: Prophet, TBATS, CatBoost, ARIMA, SARIMA e Holt-Winters.
@@ -279,6 +278,45 @@ heroku config:set MINHA_CHAVE=valor
 Observações:
 - Caso use `prophet`, o build pode demorar e requerer `cmdstanpy` ou `pystan` — testar localmente antes.
 - Heroku não mantém arquivos locais (filesystem efêmero); armazene arquivos grandes em S3 ou outro storage.
+
+---
+
+## ☁️ Deploy no Streamlit Cloud (recomendado para apps Streamlit)
+
+Streamlit Cloud é a forma mais simples de publicar um app Streamlit gratuitamente. O repositório já contém um `app.py` — use esse arquivo como o ponto de entrada do app.
+
+Passos rápidos:
+
+1. Faça push do repositório para GitHub.
+2. Acesse https://share.streamlit.io e entre com sua conta do GitHub.
+3. Clique em "New app" → escolha o repositório e a branch `main`.
+4. No campo "App file", defina `app.py` (ou a rota correta se seu app estiver em uma subpasta).
+5. Em "Advanced settings" você pode definir a versão do Python e variáveis de ambiente; normalmente o Streamlit Cloud lê o `requirements.txt` para instalar dependências.
+
+Segredos e senha de acesso:
+- Para proteger o app com a senha `ADMIN_PW_HASH` (comodidade local já implementada), vá em App settings → Secrets e adicione:
+
+```
+ADMIN_PW_HASH="<sha256_hex_da_sua_senha>"
+```
+
+Gere o hash localmente (exemplo em Python):
+
+```powershell
+python - <<'PY'
+import hashlib
+print(hashlib.sha256(b"SUA_SENHA_AQUI").hexdigest())
+PY
+```
+
+Observações:
+- O `requirements.txt` é usado pelo Streamlit Cloud para instalar dependências — valide se `streamlit` e libs opcionais como `prophet` estão listadas (o arquivo `requirements.txt` já está pinado). Se tiver problemas com builds (Prophet/Stan), teste localmente antes.
+
+Dica para desenvolvimento local:
+- Você pode copiar o arquivo `secrets_template.toml` para `.streamlit/secrets.toml` e preencher `ADMIN_PW_HASH` com o hash gerado; o app reconhecerá o segredo localmente via `st.secrets`. O `.streamlit/secrets.toml` está no `.gitignore` por segurança.
+- Se usar arquivos de dados grandes, mantenha-os fora do repositório (por exemplo, coloque no S3) — o Streamlit Cloud tem limites de espaço.
+
+---
 
 ---
 
