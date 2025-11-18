@@ -1,3 +1,0 @@
-# runtime.txt (Heroku) disabled — Streamlit Cloud configures Python version via the UI.
-# If you still use Heroku, uncomment the line below and set the desired Python runtime:
-# python-3.11.12
