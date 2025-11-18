@@ -239,45 +239,7 @@ Observações:
 
 ---
 
-## ☁️ Deploy no Heroku (passo a passo)
-
-1. Instale o Heroku CLI e faça login:
-
-```powershell
-heroku login
-```
-
-2. Crie um repositório Git, adicione `Procfile` e `requirements.txt`, e comite:
-
-```powershell
-git init
-git add .
-git commit -m "Prepare app for Heroku"
-```
-
-3. Crie o app Heroku e faça push (este comando cria o app e o remote `heroku`):
-
-```powershell
-heroku create nome-do-app
-git push heroku main
-```
-
-4. Abra o app ou monitore logs:
-
-```powershell
-heroku open
-heroku logs --tail
-```
-
-5. (Se necessário) defina variáveis de ambiente:
-
-```powershell
-heroku config:set MINHA_CHAVE=valor
-```
-
-Observações:
-- Caso use `prophet`, o build pode demorar e requerer `cmdstanpy` ou `pystan` — testar localmente antes.
-- Heroku não mantém arquivos locais (filesystem efêmero); armazene arquivos grandes em S3 ou outro storage.
+<!-- Heroku section removed — deploy no Streamlit Cloud é recomendado. -->
 
 ---
 
@@ -359,15 +321,12 @@ IMPORTANTE: Antes de forçar push, comunique a equipe e peça que façam backup 
 
 Se você quiser que o seu app seja implantado automaticamente sempre que fizer push no `main`, é possível usar um workflow GitHub Actions.
 
-1. Adicione os secrets no repositório GitHub: `HEROKU_API_KEY`, `HEROKU_APP_NAME`, `HEROKU_EMAIL`.
-2. O repositório já contém um exemplo de workflow em `.github/workflows/deploy-heroku.yml` que:
-	- instala dependências do `requirements.txt`,
-	- (opcional) executa testes,
-	- deploya para Heroku com a action `akhileshns/heroku-deploy`.
+1. Se você quiser deploy automático para outra plataforma (Heroku, Render, etc.), adicione os secrets/credentials necessárias no repositório GitHub e escreva um workflow compatível.
+2. Este template prioriza o Streamlit Cloud — se desejar outras plataformas, crie um workflow customizado e adicione os secrets necessários.
 
 Observações:
 - Você pode restringir deploy a outras branches ou adicionar etapas de build, lint e testes antes do deploy.
-- Ao usar `prophet` no Heroku, verifique os logs se ocorrer falha no build (pode precisar buildpack apt para dependências do sistema).
+-- Ao usar `prophet` em qualquer provedor, verifique os logs se ocorrer falha no build (algumas plataformas exigem dependências de SO/compilação nativa).
 
 ---
 
@@ -375,6 +334,6 @@ Observações:
 
 Um resumo rápido de criação / commit / push está no arquivo `GIT-SETUP.md` — recomendamos centralizar as operações a partir daí para evitar confusão entre `global` e `local` configurações do Git.
 
-Se quiser automatizar deploy no Heroku através do GitHub Actions, veja a seção *Deploy automático via GitHub Actions* abaixo.
+Se quiser automatizar deploy via GitHub Actions, você pode customizar um workflow — nós removemos o exemplo específico para Heroku.
 
 (versão remota — o que veio do GitHub)

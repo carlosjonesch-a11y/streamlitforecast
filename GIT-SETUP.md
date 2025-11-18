@@ -1,4 +1,4 @@
-# Guia rápido: inicializar repo Git, commitar e enviar para Heroku
+# Guia rápido: inicializar repo Git e enviar para GitHub / Streamlit Cloud
 
 Atenção: você já configurou `git config --global user.name` e `git config --global user.email`, então commits serão assinados com esses dados.
 
@@ -32,21 +32,15 @@ git commit -m "Initial commit: add Procfile, runtime, requirements and README"
 git show -s --format='%an <%ae>' HEAD
 ```
 
-## 4) Configurar remote e enviar ao Heroku
-Se quiser usar Heroku (presume que tem Heroku CLI):
+## 4) Configurar remote e enviar ao GitHub
+Use o GitHub como origin e, se quiser publicar no Streamlit Cloud, aponte para a branch `main` no GitHub — o Streamlit Cloud puxa diretamente do GitHub.
 
 ```powershell
-# fazer login Heroku (será aberta uma janela do navegador)
-heroku login
+# Adiciona origin (substitua a URL pelo seu repositório)
+git remote add origin https://github.com/usuario/nome-do-repo.git
 
-# criar app (se ainda não tiver) — substitua nome-do-app
-heroku create nome-do-app
-
-# enviar branch main (ou master)
-git push heroku main
-
-# acompanhar logs
-heroku logs --tail
+# Push da branch main para o GitHub
+git push -u origin main
 ```
 
 ## 5) Caso queira também enviar para GitHub
@@ -83,7 +77,7 @@ Se `fatal: not a git repository ...` significa que você precisa executar `git i
 ---
 
 Se quiser, eu posso também:
-- Gerar um workflow `GitHub Actions` para deploy automático no Heroku.
+- Gerar um workflow `GitHub Actions` para deploy automático em outras plataformas (Render, Fly, Heroku) ou integração com a Streamlit Cloud.
 - Ajudar a corrigir autor em commits antigos (se já tiver commits em outro e-mail).
 - Incluir instruções de como testar `prophet` no Heroku caso haja erro de build.
 
