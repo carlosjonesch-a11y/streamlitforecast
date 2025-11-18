@@ -16,13 +16,13 @@ git init
 git status
 ```
 
-## 2) Adicionar e commitar arquivos (por ex. Procfile, runtime, requirements)
+## 2) Adicionar e commitar arquivos (por ex. requirements, README)
 
 ```powershell
 # Adiciona todos os arquivos (alternativa: listar só os que deseja)
 git add .
 
-git commit -m "Initial commit: add Procfile, runtime, requirements and README"
+git commit -m "Initial commit: add requirements and README"
 ```
 
 ## 3) Verificar autor do commit
