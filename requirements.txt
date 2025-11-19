@@ -5,8 +5,6 @@ plotly
 scikit-learn
 openpyxl
 statsmodels
+prophet
 
-# Minimal default reqs for Streamlit Cloud  excludes Prophet and other heavy
-# compiles. The app supports Prophet optionally and will show a friendly
-# warning if Prophet is not available. If you need Prophet, install it locally
-# or add it to this file and re-deploy.
+# Prophet is included. Note: This may increase build time on Streamlit Cloud due to compilation.
