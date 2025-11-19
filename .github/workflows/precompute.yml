@@ -1,7 +1,7 @@
 name: Precompute Predictions
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: '0 0 * * *' # Executar diariamente à meia-noite
 
