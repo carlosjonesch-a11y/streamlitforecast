@@ -1,0 +1,136 @@
+data,local,sub_local,local_terciario,demanda
+2025-10-03,Restaurante A,Centro,Filial A1,171
+2025-10-03,Restaurante B,Zona Norte,Filial B1,120
+2025-10-03,Restaurante C,Zona Sul,Filial C1,178
+2025-10-04,Restaurante A,Centro,Filial A1,168
+2025-10-04,Restaurante B,Zona Norte,Filial B1,134
+2025-10-04,Restaurante C,Zona Sul,Filial C1,201
+2025-10-05,Restaurante A,Centro,Filial A1,192
+2025-10-05,Restaurante B,Zona Norte,Filial B1,128
+2025-10-05,Restaurante C,Zona Sul,Filial C1,224
+2025-10-06,Restaurante A,Centro,Filial A1,154
+2025-10-06,Restaurante B,Zona Norte,Filial B1,106
+2025-10-06,Restaurante C,Zona Sul,Filial C1,185
+2025-10-07,Restaurante A,Centro,Filial A1,161
+2025-10-07,Restaurante B,Zona Norte,Filial B1,114
+2025-10-07,Restaurante C,Zona Sul,Filial C1,212
+2025-10-08,Restaurante A,Centro,Filial A1,158
+2025-10-08,Restaurante B,Zona Norte,Filial B1,117
+2025-10-08,Restaurante C,Zona Sul,Filial C1,176
+2025-10-09,Restaurante A,Centro,Filial A1,180
+2025-10-09,Restaurante B,Zona Norte,Filial B1,132
+2025-10-09,Restaurante C,Zona Sul,Filial C1,171
+2025-10-10,Restaurante A,Centro,Filial A1,144
+2025-10-10,Restaurante B,Zona Norte,Filial B1,117
+2025-10-10,Restaurante C,Zona Sul,Filial C1,186
+2025-10-11,Restaurante A,Centro,Filial A1,164
+2025-10-11,Restaurante B,Zona Norte,Filial B1,125
+2025-10-11,Restaurante C,Zona Sul,Filial C1,206
+2025-10-12,Restaurante A,Centro,Filial A1,176
+2025-10-12,Restaurante B,Zona Norte,Filial B1,132
+2025-10-12,Restaurante C,Zona Sul,Filial C1,220
+2025-10-13,Restaurante A,Centro,Filial A1,197
+2025-10-13,Restaurante B,Zona Norte,Filial B1,114
+2025-10-13,Restaurante C,Zona Sul,Filial C1,166
+2025-10-14,Restaurante A,Centro,Filial A1,164
+2025-10-14,Restaurante B,Zona Norte,Filial B1,112
+2025-10-14,Restaurante C,Zona Sul,Filial C1,186
+2025-10-15,Restaurante A,Centro,Filial A1,184
+2025-10-15,Restaurante B,Zona Norte,Filial B1,104
+2025-10-15,Restaurante C,Zona Sul,Filial C1,205
+2025-10-16,Restaurante A,Centro,Filial A1,175
+2025-10-16,Restaurante B,Zona Norte,Filial B1,108
+2025-10-16,Restaurante C,Zona Sul,Filial C1,194
+2025-10-17,Restaurante A,Centro,Filial A1,171
+2025-10-17,Restaurante B,Zona Norte,Filial B1,110
+2025-10-17,Restaurante C,Zona Sul,Filial C1,213
+2025-10-18,Restaurante A,Centro,Filial A1,183
+2025-10-18,Restaurante B,Zona Norte,Filial B1,121
+2025-10-18,Restaurante C,Zona Sul,Filial C1,209
+2025-10-19,Restaurante A,Centro,Filial A1,186
+2025-10-19,Restaurante B,Zona Norte,Filial B1,126
+2025-10-19,Restaurante C,Zona Sul,Filial C1,178
+2025-10-20,Restaurante A,Centro,Filial A1,149
+2025-10-20,Restaurante B,Zona Norte,Filial B1,97
+2025-10-20,Restaurante C,Zona Sul,Filial C1,174
+2025-10-21,Restaurante A,Centro,Filial A1,166
+2025-10-21,Restaurante B,Zona Norte,Filial B1,119
+2025-10-21,Restaurante C,Zona Sul,Filial C1,166
+2025-10-22,Restaurante A,Centro,Filial A1,173
+2025-10-22,Restaurante B,Zona Norte,Filial B1,93
+2025-10-22,Restaurante C,Zona Sul,Filial C1,192
+2025-10-23,Restaurante A,Centro,Filial A1,147
+2025-10-23,Restaurante B,Zona Norte,Filial B1,112
+2025-10-23,Restaurante C,Zona Sul,Filial C1,199
+2025-10-24,Restaurante A,Centro,Filial A1,157
+2025-10-24,Restaurante B,Zona Norte,Filial B1,127
+2025-10-24,Restaurante C,Zona Sul,Filial C1,198
+2025-10-25,Restaurante A,Centro,Filial A1,169
+2025-10-25,Restaurante B,Zona Norte,Filial B1,159
+2025-10-25,Restaurante C,Zona Sul,Filial C1,202
+2025-10-26,Restaurante A,Centro,Filial A1,182
+2025-10-26,Restaurante B,Zona Norte,Filial B1,122
+2025-10-26,Restaurante C,Zona Sul,Filial C1,223
+2025-10-27,Restaurante A,Centro,Filial A1,183
+2025-10-27,Restaurante B,Zona Norte,Filial B1,114
+2025-10-27,Restaurante C,Zona Sul,Filial C1,201
+2025-10-28,Restaurante A,Centro,Filial A1,163
+2025-10-28,Restaurante B,Zona Norte,Filial B1,126
+2025-10-28,Restaurante C,Zona Sul,Filial C1,191
+2025-10-29,Restaurante A,Centro,Filial A1,163
+2025-10-29,Restaurante B,Zona Norte,Filial B1,128
+2025-10-29,Restaurante C,Zona Sul,Filial C1,199
+2025-10-30,Restaurante A,Centro,Filial A1,152
+2025-10-30,Restaurante B,Zona Norte,Filial B1,111
+2025-10-30,Restaurante C,Zona Sul,Filial C1,219
+2025-10-31,Restaurante A,Centro,Filial A1,147
+2025-10-31,Restaurante B,Zona Norte,Filial B1,112
+2025-10-31,Restaurante C,Zona Sul,Filial C1,175
+2025-11-01,Restaurante A,Centro,Filial A1,174
+2025-11-01,Restaurante B,Zona Norte,Filial B1,123
+2025-11-01,Restaurante C,Zona Sul,Filial C1,198
+2025-11-02,Restaurante A,Centro,Filial A1,202
+2025-11-02,Restaurante B,Zona Norte,Filial B1,142
+2025-11-02,Restaurante C,Zona Sul,Filial C1,232
+2025-11-03,Restaurante A,Centro,Filial A1,145
+2025-11-03,Restaurante B,Zona Norte,Filial B1,128
+2025-11-03,Restaurante C,Zona Sul,Filial C1,174
+2025-11-04,Restaurante A,Centro,Filial A1,184
+2025-11-04,Restaurante B,Zona Norte,Filial B1,124
+2025-11-04,Restaurante C,Zona Sul,Filial C1,152
+2025-11-05,Restaurante A,Centro,Filial A1,148
+2025-11-05,Restaurante B,Zona Norte,Filial B1,123
+2025-11-05,Restaurante C,Zona Sul,Filial C1,190
+2025-11-06,Restaurante A,Centro,Filial A1,173
+2025-11-06,Restaurante B,Zona Norte,Filial B1,138
+2025-11-06,Restaurante C,Zona Sul,Filial C1,185
+2025-11-07,Restaurante A,Centro,Filial A1,152
+2025-11-07,Restaurante B,Zona Norte,Filial B1,106
+2025-11-07,Restaurante C,Zona Sul,Filial C1,196
+2025-11-08,Restaurante A,Centro,Filial A1,174
+2025-11-08,Restaurante B,Zona Norte,Filial B1,146
+2025-11-08,Restaurante C,Zona Sul,Filial C1,218
+2025-11-09,Restaurante A,Centro,Filial A1,151
+2025-11-09,Restaurante B,Zona Norte,Filial B1,135
+2025-11-09,Restaurante C,Zona Sul,Filial C1,199
+2025-11-10,Restaurante A,Centro,Filial A1,171
+2025-11-10,Restaurante B,Zona Norte,Filial B1,121
+2025-11-10,Restaurante C,Zona Sul,Filial C1,199
+2025-11-11,Restaurante A,Centro,Filial A1,169
+2025-11-11,Restaurante B,Zona Norte,Filial B1,131
+2025-11-11,Restaurante C,Zona Sul,Filial C1,187
+2025-11-12,Restaurante A,Centro,Filial A1,175
+2025-11-12,Restaurante B,Zona Norte,Filial B1,105
+2025-11-12,Restaurante C,Zona Sul,Filial C1,185
+2025-11-13,Restaurante A,Centro,Filial A1,158
+2025-11-13,Restaurante B,Zona Norte,Filial B1,127
+2025-11-13,Restaurante C,Zona Sul,Filial C1,194
+2025-11-14,Restaurante A,Centro,Filial A1,156
+2025-11-14,Restaurante B,Zona Norte,Filial B1,123
+2025-11-14,Restaurante C,Zona Sul,Filial C1,179
+2025-11-15,Restaurante A,Centro,Filial A1,167
+2025-11-15,Restaurante B,Zona Norte,Filial B1,119
+2025-11-15,Restaurante C,Zona Sul,Filial C1,197
+2025-11-16,Restaurante A,Centro,Filial A1,166
+2025-11-16,Restaurante B,Zona Norte,Filial B1,146
+2025-11-16,Restaurante C,Zona Sul,Filial C1,238
